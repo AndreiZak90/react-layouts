@@ -1,0 +1,92 @@
+.box_btn {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin: 20px 20px;
+}
+
+.btn {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+}
+
+.box_list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.box_list_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+  height: 100px;
+  background: whitesmoke;
+  margin: 0 auto;
+}
+
+.list_img {
+  width: 100px;
+  height: 100px;
+}
+
+.list_name,
+.module_title {
+  text-transform: uppercase;
+}
+
+.list_color,
+.module_color {
+  font-size: 10px;
+}
+
+.list_price {
+  color: red;
+}
+
+.btn_add {
+  color: red;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 9px;
+  border: 1px solid red;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn_add:hover {
+  background: red;
+  color: green;
+}
+
+.module_box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.item_module_box {
+  background: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 300px;
+  height: 350px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.module_img {
+  width: 150px;
+  height: 150px;
+}
+
+.module_price_box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
